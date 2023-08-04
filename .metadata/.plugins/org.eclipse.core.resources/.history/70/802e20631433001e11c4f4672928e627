@@ -1,0 +1,10 @@
+package br.com.projetoteste.teste;
+
+public class Teste {
+
+	String nome = "Gustavo" ;
+	int idade = 23 ;
+	int salario = 1236.25;
+	double salarioTotal = 1223.56f;
+	
+}
