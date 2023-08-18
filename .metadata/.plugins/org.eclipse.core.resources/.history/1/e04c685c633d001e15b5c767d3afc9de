@@ -1,0 +1,5 @@
+package br.com.projetomontadora.model;
+
+public class Moto {
+
+}

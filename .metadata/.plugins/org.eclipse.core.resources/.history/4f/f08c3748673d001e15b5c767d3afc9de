@@ -1,0 +1,34 @@
+package br.com.projetomontadora.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.projetomontadora.model.Carro;
+import br.com.projetomontadora.model.Moto;
+
+
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Carro carro = new Carro();
+				carro.setModelo(JOptionPane.showInputDialog("Digite o modelo do carro :"));
+				carro.setQuantidadePortas(Integer.parseInt((JOptionPane.showInputDialog("Digite o numero de portas "))));
+				carro.setPeso(Double.parseDouble((JOptionPane.showInputDialog("Digite o peso do carro"))));
+		 
+				System.out.println("Modelo do carro: " + carro.getModelo() +
+		  			 "\nQuantidade de portas do carro " + carro.getQuantidadePortas() +
+		  			 "\nPeso do carro " + carro.getPeso());
+			
+			Moto moto = new Moto();
+			moto.setModelo(JOptionPane.showInputDialog("Digite o modelo do moto :"));
+			moto.setQuantidadeAdesivos(Integer.parseInt((JOptionPane.showInputDialog("Digite o numero de portas "))));
+			moto.setPeso(Double.parseDouble((JOptionPane.showInputDialog("Digite o peso do moto"))));
+				 
+				System.out.println("Modelo do moto: " + moto.getModelo() +
+			  			 "\nQuantidade de adesivos da moto " + moto.getQuantidadeAdesivos() +
+			  			 "\nPeso do moto " +moto.getPeso());
+	}
+
+}

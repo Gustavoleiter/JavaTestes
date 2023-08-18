@@ -1,0 +1,18 @@
+package br.com.projetozoologico.teste;
+
+import br.com.projetozoologico.model.Mamifero;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//ctrl + shift + o para importar automaticamente 
+		
+		 Mamifero mamifero = new Mamifero();
+		 
+		 mamifero.se
+		 mamifero.setTempoGestacao(9);
+	
+	}
+
+}
