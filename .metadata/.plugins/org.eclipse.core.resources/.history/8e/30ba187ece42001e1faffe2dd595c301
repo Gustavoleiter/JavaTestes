@@ -1,0 +1,19 @@
+package br.com.frabricadoce.main;
+
+import javax.swing.JOptionPane;
+
+import br.com.frabricadoce.model.Doce;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Doce doce = new Doce();
+		
+		doce.setNomeDoce("Digite o nome do doce :");
+		doce.setPesoAcucar(Double.parseDouble((JOptionPane.showInputDialog("Digite o peso do doce :"))));
+		
+		System.out.println("Esse é o nome do doce : " +doce.getNomeDoce()+ ", e esse e o peso dele : " + doce.getPesoAcucar());
+	}
+
+}

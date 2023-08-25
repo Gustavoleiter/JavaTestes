@@ -1,0 +1,17 @@
+package br.com.frabricadoce.model;
+
+public class Brigadeiro extends Doce{
+	private double pesoChocolate;
+
+	public double getPesoChocolate() {
+		return pesoChocolate;
+	}
+
+	public void setPesoChocolate(double pesoChocolate) {
+		this.pesoChocolate = pesoChocolate;
+	}
+	public void retornarDadosString() {
+		System.out.println("Esse é o nome do doce : " +getNomeDoce()
+		+ ", e esse e o peso dele : " + getPesoAcucar() + "e esse o peso do chocolate nele : "+getPesoChocolate());;
+	}
+}

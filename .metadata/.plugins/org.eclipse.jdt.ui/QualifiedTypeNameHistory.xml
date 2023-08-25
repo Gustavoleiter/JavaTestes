@@ -2,4 +2,10 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="br.com.projetozoologico.model.Mamifero"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="br.com.projetomontadora.model.Carro"/>
+    <fullyQualifiedTypeName name="br.com.projetomontadora.model.Moto"/>
+    <fullyQualifiedTypeName name="br.com.projetoconstrutora.model.Casa"/>
+    <fullyQualifiedTypeName name="br.com.projetoconstrutora.model.Residencia"/>
+    <fullyQualifiedTypeName name="br.com.frabricadoce.model.Doce"/>
+    <fullyQualifiedTypeName name="br.com.frabricadoce.model.Brigadeiro"/>
 </qualifiedTypeNameHistroy>
