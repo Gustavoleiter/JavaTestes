@@ -1,0 +1,5 @@
+package br.com.motorola.conexao;
+
+public class Conexao {
+
+}

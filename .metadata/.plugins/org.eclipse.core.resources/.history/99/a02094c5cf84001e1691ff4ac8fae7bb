@@ -1,0 +1,7 @@
+package br.com.motorola.model;
+
+public class Telefone {
+	private String gustavoModelo;
+	private int gustavoPeso;
+
+}

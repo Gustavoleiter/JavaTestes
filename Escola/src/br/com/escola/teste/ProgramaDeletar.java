@@ -16,7 +16,7 @@ public static void main(String[] args) {
 		ProfessorDAO professordao = new ProfessorDAO(con);////////
 		
 	
-		professor.setCurso("BD");
+		professor.setCurso("ADM");
 		System.out.println(professordao.deletar(professor));
 		
 		Conexao.fecharConexao(con);

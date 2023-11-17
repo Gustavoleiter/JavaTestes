@@ -19,4 +19,8 @@
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="br.com.escola.dao.ProfessorDao"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="br.com.motorola.dao.CelularDAO"/>
+    <fullyQualifiedTypeName name="br.com.motorola.model.Celular"/>
+    <fullyQualifiedTypeName name="br.com.motorola.conexao.Conexao"/>
 </qualifiedTypeNameHistroy>

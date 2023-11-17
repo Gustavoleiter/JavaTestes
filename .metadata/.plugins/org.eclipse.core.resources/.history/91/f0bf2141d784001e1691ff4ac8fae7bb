@@ -1,0 +1,29 @@
+package br.com.motorola.teste;
+
+import java.sql.Connection;
+
+import br.com.motorola.conexao.Conexao;
+import br.com.motorola.dao.CelularDAO;
+import br.com.motorola.model.Celular;
+
+
+
+public class Inserir {
+
+public static void main(String[] args) {
+		
+		Connection con = Conexao.abrirConexao();
+
+		Celular celular = new Celular();
+		CelularDAO celulardao = new CelularDAO(con);////////
+		
+		celular.setGustavoModelo("nokiaao");
+		celular.setGustavoPeso(1222);
+		celular.setGustavoAlturaDaTela(1111);
+		celular.setGustavoLarguraDaTela(63);
+		System.out.println(celulardao.inserir(celular));
+		
+		Conexao.fecharConexao(con);
+	}
+
+}
